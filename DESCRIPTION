@@ -1,0 +1,15 @@
+Package: typo
+Type: Package
+Version: 0.0.0
+Title: Helping people who make typos
+Description: Helping people who make typos.
+Authors@R: c(
+    person("Romain", "Francois", , "romain@r-enthusiasts.com", role = c("aut", "cre"))
+    )
+URL: https://github.com/romainfrancois/typo
+BugReports: https://github.com/romainfrancois/typo/issues
+Depends:
+    R (>= 3.3.1)
+License: MIT + file LICENSE
+RoxygenNote: 5.0.1
+Imports: dplyr, magrittr, stringdist, tibble
